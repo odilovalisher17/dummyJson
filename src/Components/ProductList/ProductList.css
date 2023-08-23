@@ -1,0 +1,339 @@
+.product-list {
+  padding-bottom: 2rem;
+}
+
+.product-list-desktop {
+  display: flex;
+}
+
+.sidebar-add-btn {
+  width: calc(100% - 10px);
+  padding: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: transparent;
+  margin: 5px;
+}
+
+/* ////////////////////////////////   Product Header \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 5rem;
+  background-color: rgba(0, 123, 255, 0.5);
+}
+
+.product-header-username {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.product-header-logout button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+/* //////////////////////////  Side Bar \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+.sidebar {
+  width: 300px;
+  height: 80vh;
+  overflow-y: scroll;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-product {
+  padding: 1rem 0;
+  padding-left: 2rem;
+  padding-right: 0.7rem;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 5px 5px;
+  border: rgba(255, 255, 255, 0.1) solid 1px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.active-product {
+  background-color: rgba(0, 123, 255, 0.2);
+}
+
+.sidebar-product-title {
+  width: 75%;
+}
+
+.sidebar-action-btns {
+  width: 48px;
+  height: 24px;
+}
+
+.sidebar-action-btns button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem;
+  display: none;
+}
+
+.sidebar-action-btns button svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.active-product-btns button {
+  display: inline-flex;
+}
+
+/* ////////////////////////////////////  Action Playground \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.action-playground {
+  width: calc(100vw - 300px);
+  padding: 3rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+/* 
+ */
+
+/* ////////// View Modal  \\\\\\\\ */
+
+.view-modal {
+  width: calc(100vw - 300px);
+  padding: 3rem 5rem;
+}
+
+.view-modal-title {
+  text-align: center;
+}
+
+.view-modal-context {
+  display: flex;
+  padding-top: 2rem;
+}
+
+.view-modal-context-text {
+  width: 50%;
+  padding-right: 1rem;
+}
+
+.view-modal-carousel {
+  width: 50%;
+}
+
+.view-modal-carousel img {
+  height: 50vh;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+  box-shadow: 50px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* ////////////////////////////  Edit Modal \\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.edit-modal {
+  width: calc(100vw - 300px);
+  padding: 2rem 5rem;
+  padding-bottom: 0;
+  display: grid;
+  justify-content: center;
+}
+
+.edit-modal > div {
+  width: 500px;
+}
+
+.edit-modal-title {
+  text-align: center;
+}
+
+.edit-modal-title input {
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.edit-modal-context {
+  text-align: center;
+  display: grid;
+}
+
+.edit-modal-context input {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.edit-modal-category {
+  display: flex;
+  padding: 0.2rem 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.edit-modal-category div {
+  width: 150px;
+  text-align: start;
+}
+
+.edit-modal-category select {
+  width: calc(100% - 150px);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.edit-modal-brand {
+  display: flex;
+  padding: 0.2rem 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.edit-modal-brand div {
+  width: 150px;
+  text-align: start;
+}
+
+.edit-modal-brand input {
+  width: calc(100% - 150px);
+}
+
+.edit-modal-price {
+  display: flex;
+  padding: 0.2rem 0;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.edit-modal-price div {
+  width: 150px;
+  text-align: start;
+}
+
+.edit-modal-price input {
+  width: calc(100% - 150px);
+}
+
+.edit-modal-discount {
+  display: flex;
+  padding: 0.2rem 0;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.edit-modal-discount div {
+  width: 150px;
+  text-align: start;
+}
+
+.edit-modal-discount input {
+  width: calc(100% - 150px);
+}
+
+.edit-modal-rating {
+  display: flex;
+  padding: 0.2rem 0;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.edit-modal-rating div {
+  width: 150px;
+  text-align: start;
+}
+
+.edit-modal-rating input {
+  width: calc(100% - 150px);
+}
+
+.edit-modal-stock {
+  display: flex;
+  padding: 0.2rem 0;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.edit-modal-stock div {
+  width: 150px;
+  text-align: start;
+}
+
+.edit-modal-stock input {
+  width: calc(100% - 150px);
+}
+
+.edit-modal-description {
+  display: flex;
+  padding: 0.2rem 0;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.edit-modal-description div {
+  width: 150px;
+  text-align: start;
+}
+
+.edit-modal-description textarea {
+  width: calc(100% - 150px);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.edit-modal-submit {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-radius: 10px;
+  background: greenyellow;
+  margin-top: 1rem;
+}
+
+.edit-modal-submit:active {
+  transform: scale(1.01);
+}
+
+/* ////////////////////////////////////// Delete Modal \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.delete-modal {
+  width: calc(100vw - 300px);
+  padding: 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-modal-text {
+  font-size: 30px;
+  font-weight: 600;
+  width: 300px;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.delete-modal-btns button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+}
+
+.delete-modal-delete {
+  margin-right: 1rem;
+  background-color: red;
+  color: #fff;
+}
+
+.delete-modal-cancel {
+  background-color: gainsboro;
+}
